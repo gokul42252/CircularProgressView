@@ -5,7 +5,7 @@ Customview for show circular progress and show text in the middle.
 
 How to use in yout projects
 
-#####Step 1 :  Add the JitPack repository to your build file
+###Step 1 :  Add the JitPack repository to your build file
 
 #### gradle 
 
@@ -28,7 +28,7 @@ allprojects {
 		</repository>
 	</repositories>
   ```
-#####Step 2. Add the dependency
+###Step 2. Add the dependency
 
 ####  gradle:
 ```gradle
@@ -45,7 +45,7 @@ dependencies {
 	    <version>1.0.0</version>
 	</dependency>
   ```
-#####Step 3. Adding to an Activity
+###Step 3. Adding to an Activity
 ```java
  <com.ct.circularprogressview.CircularProgressView
             android:id="@+id/circle_progress_bar"
@@ -63,7 +63,7 @@ dependencies {
             tools:ignore="MissingConstraints"/>
          
    ```            
- #####Step 4. Adding to an Activity.java
+ ###Step 4. Adding to an Activity.java
  ```java
    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
