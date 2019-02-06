@@ -9,7 +9,8 @@ Step 1 :  Add the JitPack repository to your build file
 
 #### gradle 
 
-```allprojects {
+```gradle
+allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -19,7 +20,7 @@ Step 1 :  Add the JitPack repository to your build file
   
   ####  maven:
  
- ```
+ ```maven
         <repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -30,14 +31,14 @@ Step 1 :  Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 ####  gradle:
-```
+```gradle
 dependencies {
 	        implementation 'com.github.gokul42252:CircularProgressView:1.0.0'
 	}
   
 ```
 ####  maven :
-```
+```maven
 	<dependency>
 	    <groupId>com.github.gokul42252</groupId>
 	    <artifactId>CircularProgressView</artifactId>
@@ -45,7 +46,7 @@ dependencies {
 	</dependency>
   ```
 Step 3. Adding to an Activity
-```
+```java
  <com.ct.circularprogressview.CircularProgressView
             android:id="@+id/circle_progress_bar"
             android:layout_width="wrap_content"
@@ -63,7 +64,7 @@ Step 3. Adding to an Activity
          
    ```            
  Step 4. Adding to an Activity.java
- ```
+ ```java
    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
