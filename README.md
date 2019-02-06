@@ -1,7 +1,8 @@
 # CircularProgressView
 Customview for show circular progress and show text in the middle.
 
-https://github.com/gokul42252/CircularProgressView/blob/master/Screenshot_1549456610.png
+![alt text](https://github.com/gokul42252/CircularProgressView/blob/master/Screenshot_1549456610.png)
+
 
 How to use in yout projects
 
