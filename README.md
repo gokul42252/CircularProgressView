@@ -1,7 +1,8 @@
 # CircularProgressView
+
 Customview for show circular progress and show text in the middle.
 
-![alt text](https://github.com/gokul42252/CircularProgressView/blob/master/Screenshot_1549456610.png)
+
 
 How to use in yout projects
 
@@ -73,5 +74,5 @@ Step 4. Adding to an Activity.java
     }
 ```
     
- 
+ ![alt text](https://github.com/gokul42252/CircularProgressView/blob/master/Screenshot_1549456610.png)
 
