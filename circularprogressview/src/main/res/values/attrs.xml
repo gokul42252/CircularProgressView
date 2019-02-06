@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressView">
+        <attr name="cv_label_fontName" format="string"/>
+        <attr name="cv_fontName" format="string"/>
+        <attr name="cv_base_arc_color" format="reference"/>
+        <attr name="cv_progress_arc_color" format="reference"/>
+        <attr name="cv_progress_label_text_color" format="reference"/>
+        <attr name="cv_progress_value_text_color" format="reference"/>
+        <attr name="cv_progress_label_text_size" format="dimension"/>
+        <attr name="cv_progress_value_text_size" format="dimension"/>
+        <attr name="cv_arc_width" format="dimension"/>
+        <attr name="cv_progress_label_str" format="string"/>
+    </declare-styleable>
+</resources>
