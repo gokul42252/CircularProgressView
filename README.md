@@ -58,8 +58,8 @@ Step 3. Adding to an Activity
             app:cv_progress_value_text_color="@color/colorWhite"
             app:cv_progress_value_text_size="20sp"
             tools:ignore="MissingConstraints"/>
-         ```   
-            
+         
+   ```            
  Step 4. 
  ```
    override fun onCreate(savedInstanceState: Bundle?) {
