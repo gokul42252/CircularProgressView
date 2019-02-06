@@ -7,7 +7,7 @@ How to use in yout projects
 Step 1 :  Add the JitPack repository to your build file
 
 gradle 
-```java
+```
 allprojects {
 		repositories {
 			...
@@ -68,7 +68,7 @@ Step 3. Adding to an Activity
         val cicView = findViewById<CircularProgressView>(R.id.circle_progress_bar);
         cicView.updateProgressWithProgressText("Time", 65f, "Date")
     }
-    ```
+```
     
     
 
