@@ -1,14 +1,13 @@
 # CircularProgressView
 Customview for show circular progress and show text in the middle.
 
-
 How to use in yout projects
 
 Step 1 :  Add the JitPack repository to your build file
 
 gradle 
-```
-allprojects {
+
+```allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -17,8 +16,9 @@ allprojects {
   ```
   
   maven:
-  ```
-  	<repositories>
+ 
+ ```
+        <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
@@ -33,7 +33,7 @@ dependencies {
 	        implementation 'com.github.gokul42252:CircularProgressView:1.0.0'
 	}
   
-  ```
+```
 maven :
 ```
 	<dependency>
