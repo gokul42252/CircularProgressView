@@ -11,12 +11,11 @@ Step 1 :  Add the JitPack repository to your build file
 #### gradle 
 
 ```gradle
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+      allprojects {
+           repositories {
+	     maven { url 'https://jitpack.io' }
+                        }
+	          }
   ```
   
   ####  maven:
@@ -33,22 +32,22 @@ Step 2. Add the dependency
 
 ####  gradle:
 ```gradle
-dependencies {
-	        implementation 'com.github.gokul42252:CircularProgressView:1.0.0'
-	}
+       dependencies {
+	            implementation 'com.github.gokul42252:CircularProgressView:1.0.0'
+	           }
   
 ```
 ####  maven :
 ```maven
-	<dependency>
+        <dependency>
 	    <groupId>com.github.gokul42252</groupId>
 	    <artifactId>CircularProgressView</artifactId>
 	    <version>1.0.0</version>
-	</dependency>
+        </dependency>
   ```
 Step 3. Adding to an Activity
 ```java
- <com.ct.circularprogressview.CircularProgressView
+        <com.ct.circularprogressview.CircularProgressView
             android:id="@+id/circle_progress_bar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,12 +65,12 @@ Step 3. Adding to an Activity
    ```            
 Step 4. Adding to an Activity.java
  ```java
-   override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val cicView = findViewById<CircularProgressView>(R.id.circle_progress_bar);
-        cicView.updateProgressWithProgressText("Time", 65f, "Date")
-    }
+        override fun onCreate(savedInstanceState: Bundle?) {
+           super.onCreate(savedInstanceState)
+           setContentView(R.layout.activity_main)
+           val cicView = findViewById<CircularProgressView>(R.id.circle_progress_bar);
+           cicView.updateProgressWithProgressText("Time", 65f, "Date")
+         }
 ```
     
  ![alt text](https://github.com/gokul42252/CircularProgressView/blob/master/Screenshot_1549456610.png)
