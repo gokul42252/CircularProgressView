@@ -62,7 +62,7 @@ Step 3. Adding to an Activity
             tools:ignore="MissingConstraints"/>
          
    ```            
- Step 4. 
+ Step 4. Adding to an Activity.java
  ```
    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
